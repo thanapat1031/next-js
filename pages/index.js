@@ -1,8 +1,9 @@
 import React from "react"
 
-const Index = () => (
-    <h1>this is SIT CRAFT Camp </h1>
-)
-
-export default Index
-
+export default class Index extends React.Component{
+    render(){
+        return(
+            <div>Hello NextJs</div>
+        )
+    }
+}
